@@ -1,22 +1,29 @@
-package extra;
+
 
 public class Person {
-	String Blackpanther ;
-	String Agility ;
+	String name  ;
+	String Superpower  ;
 	
-	String getBlackpanther() {
-		return Blackpanther;
+	String getname() {
+		return name;
 		
 	}
-	String getAgility() {
-		return Agility;
+	String getSuperpower() {
+		return Superpower;
 		
 	}
- void setBlackpanther(String Blackpanther) {
-	 this.Blackpanther=Blackpanther;
+ void setname(String name) {
+	 this.name=name;
  }
 
-void setAgility(String Agility) {
-	 this.Agility=Agility;
+void setSuperpower(String Superpower) {
+	 this.Superpower=Superpower;
 }
+
+public String toString() {
+	String c = "Name: " + name;
+	c += "\nSuperpower: " + Superpower;
+	return c;
+}
+
 }
