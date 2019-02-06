@@ -19,7 +19,7 @@ public class SeaCreature {
 	}
 
 	public String getName() {
-		return "My name is " + name;
+		return name;
 	}
 
 	public void eat() {
